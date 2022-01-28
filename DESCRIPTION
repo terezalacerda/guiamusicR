@@ -1,0 +1,18 @@
+Package: guiamusicR
+Title: Guia Dos Musiqueiros
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tereza", "Lacerda", , "tlacerda@curso-r.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Este pacote automatiza algumas funções dos pacotes {Rspotify} e {spotifyr} (como criar playlists, obter dados de músicas, bandas, etc). O objetivo a longo prazo é continuar criando funções, tanto voltadas para a recomendação de músicas, quanto para a organização das músicas no próprio Spotify. O nome do pacote faz referência à página "Guia dos Musiqueiros" do Instagram :).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    magrittr,
+    Rspotify,
+    spotifyr,
+    stringr,
+    tidyr
