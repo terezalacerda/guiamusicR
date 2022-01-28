@@ -16,3 +16,5 @@ Imports:
     spotifyr,
     stringr,
     tidyr
+URL: https://github.com/terezalacerda/guiamusicR
+BugReports: https://github.com/terezalacerda/guiamusicR/issues
