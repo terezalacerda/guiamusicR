@@ -3,6 +3,6 @@
 export("%>%")
 export(criar_playlist)
 export(definir_ids)
-export(obtem_musicas_curtidas)
 export(obter_dados_musicas)
+export(obter_musicas_curtidas)
 importFrom(magrittr,"%>%")

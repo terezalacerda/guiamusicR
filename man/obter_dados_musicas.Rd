@@ -13,7 +13,7 @@ obter_dados_musicas(ids_musicas)
 uma tibble com as seguintes informações sobre as músicas especificadas: c("track_id","explicit", "album", "album_id", "artist_id", "track_popularity", "track_name", "artist_name", "genres", "artist_popularity", "followers", "danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo", "uri", "track_href", "analysis_url", "duration_ms", "time_signature" )
 }
 \description{
-Essa função obtem dados de musicas. Tais como:
+Essa função obtem dados das músicas especificadas
 }
 \examples{
 # obter_dados_musicas(c("3Wrjm47oTz2sjIgck11l5e",
