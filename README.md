@@ -29,7 +29,8 @@ devtools::install_github("terezalacerda/guiamusicR")
 
 Se você quer usar as funções do guiamusicR pra se divertir um pouco no
 R, você precisa primeiro obter um token de acesso. Você pode conseguir
-isso [nessa página](https://www.spotify.com/br/account/overview/)
+isso [nessa
+página](https://developer.spotify.com/dashboard/applications)
 
 Depois de conseguir o seu token, o primeiro comando que você deve rodar
 antes de usar de fato as funções do `guiamusicR` é o seguinte:
