@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 O `guiamusicR` automatiza algumas funções dos pacotes `Rspotify` e `spotifyr` (como criar playlists, obter dados de músicas, bandas, etc). 
 O objetivo a longo prazo é continuar criando funções, tanto voltadas para a recomendação de músicas, quanto para a organização de suas músicas no próprio Spotify. 
-O nome do pacote faz referência à página "Guia dos Musiqueiros" do Instagram :)
+O nome do pacote faz referência à página ["Guia dos Musiqueiros"](https://www.instagram.com/guiadosmusiqueiros/?hl=pt-br) do Instagram :)
 
 ## Instalação
 

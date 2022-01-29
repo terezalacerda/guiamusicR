@@ -11,7 +11,9 @@ O `guiamusicR` automatiza algumas funções dos pacotes `Rspotify` e
 O objetivo a longo prazo é continuar criando funções, tanto voltadas
 para a recomendação de músicas, quanto para a organização de suas
 músicas no próprio Spotify. O nome do pacote faz referência à página
-“Guia dos Musiqueiros” do Instagram :)
+[“Guia dos
+Musiqueiros”](https://www.instagram.com/guiadosmusiqueiros/?hl=pt-br) do
+Instagram :)
 
 ## Instalação
 
