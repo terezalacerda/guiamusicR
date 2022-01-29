@@ -10,7 +10,7 @@ obter_musicas_curtidas()
 uma tibble com todas suas músicas curtidas, e as seguintes informações sobre elas: c("added_at", "artists_href", "artists_id", "artists_name", "artists_type", "artists_uri", "artists_external_urls_spotify", "available_markets", "disc_number", "duration_ms", "explicit", "is_local", "preview_url", "track_number", "type", "uri", "album_available_markets", "album_href", "album_id", "album_images", "album_name", "album_release_date", "album_release_date_precision", "album_total_tracks", "album_type", "album_uri", "album_external_urls_spotify", "external_ids_isrc", "external_urls_spotify", "track_rhef", "track_id", "track_name", "track_popularity")
 }
 \description{
-Essa função pega informações de todas as suas músicas curtida no Spotify.
+Essa função pega informações de todas as suas músicas curtidas no Spotify.
 }
 \examples{
 # obter_musicas_curtidas()

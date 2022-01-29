@@ -1,0 +1,57 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# guiamusicR
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+O `guiamusicR` automatiza algumas funções dos pacotes `Rspotify` e `spotifyr` (como criar playlists, obter dados de músicas, bandas, etc). 
+O objetivo a longo prazo é continuar criando funções, tanto voltadas para a recomendação de músicas, quanto para a organização de suas músicas no próprio Spotify. 
+O nome do pacote faz referência à página "Guia dos Musiqueiros" do Instagram :)
+
+## Instalação
+
+Você pode instalar a versão em desenvolvimento do guiamusicR pelo
+ [GitHub](https://github.com/) com o comando:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("terezalacerda/guiamusicR")
+```
+
+## Antes de Qualquer coisa...
+
+Se você quer usar as funções do guiamusicR pra se divertir um pouco no R, você precisa primeiro obter um token de acesso. Você pode conseguir isso [nessa página](https://www.spotify.com/br/account/overview/)
+
+Depois de conseguir o seu token, o primeiro comando que você deve rodar antes de usar de fato as funções do `guiamusicR` é o seguinte:
+
+```{r example, eval=FALSE}
+library(guiamusicR)
+definir_ids(user_id, client_id, client_secret)
+```
+
+sendo `user_id` o seu id de usuário no Spotify, e `client_id` e `client_secret` os tokens obtidos.
+
+Pronto! Agora pode se divertir a vontade com as funções do `guiamusicR`!
+
+# São elas:
+
+`obter_dados_musicas`: Essa função obtem dados das músicas especificadas.
+
+`obter_musicas_curtidas`: Essa função pega informações de todas as suas músicas curtidas no Spotify.
+
+`criar_playlist`: Essa função cria uma playlist no Spotify, e adiciona as músicas especificadas.
+
