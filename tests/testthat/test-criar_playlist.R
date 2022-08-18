@@ -2,7 +2,7 @@ test_that("criar_playlist works", {
 
   # definindo ids para que as funções funcionem
   definir_ids('therezzza', 'd31252a2880546b3ba640d5d64b7e652',
-             '3ff2301f995d4319b0977c77133792dc')
+              '964f9c50f2254b19a5ab0e7f333b3c49')
 
   # teste que deve funcionar normalmente
   teste1 <- criar_playlist(data.frame(
