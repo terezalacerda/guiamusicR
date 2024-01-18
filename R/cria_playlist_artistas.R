@@ -26,7 +26,7 @@ cria_playlist_artistas <- function(artistas,
                               publica = TRUE,
                               colaborativa = FALSE){
 
-  ids <- obtem_id_artistas(artistas)
+  ids <- obter_id_artistas(artistas)
 
   top_musicas <- NULL
 

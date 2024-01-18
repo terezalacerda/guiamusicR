@@ -1,4 +1,4 @@
-obtem_id_artistas <- function(artistas){
+obter_id_artistas <- function(artistas){
 
   ids <- c()
 

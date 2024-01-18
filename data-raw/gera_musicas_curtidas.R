@@ -1,14 +1,15 @@
 ## code to prepare `musicas_curtidas` dataset goes here
 
-definir_ids('therezzza', 'd31252a2880546b3ba640d5d64b7e652',
-            '964f9c50f2254b19a5ab0e7f333b3c49')
+definir_ids('therezzza', 'bf97cb31956a48159ea6b8524cdaa02a',
+            '3c909290b04f4e65afb0958e9bd188bf')
 
 curtidas <- obter_musicas_curtidas()
 
 ultima_data <- musicas_curtidas$added_at[1]
 
 curtidas_novas <- curtidas |>
-  dplyr::filter(added_at > ultima_data)
+  dplyr::filter(added_at > ultima_data) |>
+  dplyr::arrange(added_at) |> head(500)
 
 if (nrow(curtidas_novas) > 0){
 
@@ -27,9 +28,8 @@ musicas_curtidas2 <- curtidas_novas |>
 
 musicas_curtidas <- dplyr::bind_rows(musicas_curtidas2,
                            musicas_curtidas) |>
-  unique()
-
-
+  unique() |>
+  dplyr::arrange(desc(added_at))
 
 usethis::use_data(musicas_curtidas, overwrite = TRUE)
 
