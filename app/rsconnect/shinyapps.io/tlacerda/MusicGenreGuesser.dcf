@@ -1,0 +1,12 @@
+name: MusicGenreGuesser
+title: MusicGenreGuesser
+username: tlacerda
+account: tlacerda
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10968364
+bundleId: 8160381
+url: https://tlacerda.shinyapps.io/MusicGenreGuesser/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
